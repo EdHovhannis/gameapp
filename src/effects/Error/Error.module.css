@@ -1,0 +1,31 @@
+.error {
+    padding: 1rem 2rem;  
+    border-radius: 0.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.error>span:last-child:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.error_2 { 
+    width: 20rem;
+    justify-content: center;
+    color: var(--grey);
+    border: 1px solid var(--grey);
+}
+.error_3 { 
+    width: 12rem;
+    color: var(--red);
+    border: 1px solid var(--red);
+}
+.defaultErr { 
+    padding: 1rem 2rem;  
+    border-radius: 0.5rem; 
+    width: 90%;
+    margin: 2rem auto;
+    color: var(--red);
+    border: 1px solid var(--red);
+    text-align: center; 
+}

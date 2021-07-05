@@ -1,0 +1,39 @@
+.info {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.active {
+  color: var(--green);
+}
+.finished {
+  color: var(--grey);
+}
+.table_group_1, .table_group_2 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.table_group_1 table, .table_group_2 table {
+  border-collapse: collapse;
+  margin: 0.5rem;
+}
+.table_group_1 table td,
+.table_group_1 table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.table_group_1 table tr:nth-child(even), .table_group_2 table tr:nth-child(even)  {
+  background-color: var(--grey-light);
+}
+.table_group_1 table th, .table_group_2 table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--primary);
+  color: var(--white);
+}
+

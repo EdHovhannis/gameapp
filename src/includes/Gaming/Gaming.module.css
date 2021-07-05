@@ -1,0 +1,35 @@
+.table_group_3 {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.table_group_3 table {
+  border-collapse: collapse;
+  margin: 0.5rem;
+  margin-top: 0.5rem;
+}
+.table_group_3 table td,
+.table_group_3 table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.table_group_3 table tr:nth-child(even) {
+  background-color: var(--grey-light);
+}
+.table_group_3 table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--primary);
+  color: var(--white);
+}
+.gaming {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}

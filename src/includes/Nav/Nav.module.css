@@ -1,0 +1,13 @@
+.nav {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+.nav nav {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.nav nav button {
+    margin: 1rem ;
+}

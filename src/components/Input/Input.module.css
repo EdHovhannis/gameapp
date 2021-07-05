@@ -1,0 +1,15 @@
+.style_1,
+.create form div select {
+  border: none;
+  border-bottom: 1px solid var(--grey-light);
+  outline: none;
+  margin-left: 1rem;
+}
+.style_2 {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--grey);
+  outline: none;
+  width: 4rem;
+  text-align: center;
+}

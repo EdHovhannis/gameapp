@@ -1,0 +1,38 @@
+.block {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.block li {
+  width: 180px;
+  margin: 0.5rem;
+  border: 1px solid var(--grey);
+  border-radius: 0.4rem;
+  padding: 1rem 0.5rem;
+}
+.block_details {
+  display: flex;
+  justify-content: space-between;
+}
+.blockTitle {
+    color: var(--black);
+}
+.blockTitle:hover {
+  cursor: pointer;
+  color: var(--primary);
+}
+.active {
+  color: var(--green);
+}
+.finished {
+  color: var(--grey);
+}
+.trash_icon {
+  color: var(--grey);
+}
+.trash_icon:hover {
+  color: var(--red);
+  cursor: pointer;
+}

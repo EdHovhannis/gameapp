@@ -1,0 +1,24 @@
+.button {
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  opacity: 0.8;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.button:hover {
+  opacity: 1;
+  transition: all ease 0.2s;
+}
+
+.primary {
+  background: var(--primary); 
+}
+.green {
+  background: var(--green); 
+}
+.red {
+  background: var(--red); 
+}

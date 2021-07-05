@@ -1,0 +1,14 @@
+.create > div:first-child {
+  margin-left: 1rem;
+}
+.create > div:last-child {
+  margin-right: 1rem;
+}
+.create {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+

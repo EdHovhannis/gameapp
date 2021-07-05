@@ -1,0 +1,24 @@
+.nav {
+  height: 5rem;
+  background: var(--primary);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.nav > div:first-child,
+.create > div:first-child {
+  margin-left: 1rem;
+}
+.nav > div:last-child,
+.create > div:last-child {
+  margin-right: 1rem;
+}
+.out { 
+  color: var(--white);
+}
+.out:hover {
+  cursor: pointer;
+  color: var(--grey-light);
+}

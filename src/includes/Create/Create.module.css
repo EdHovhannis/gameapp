@@ -1,0 +1,15 @@
+.create > div:first-child {
+  margin-left: 1rem;
+} 
+.create > div:last-child {
+  margin-right: 1rem;
+} 
+.create {
+  margin-top: 2rem;
+}
+.create form {
+  margin: 1rem;
+}
+.create form div {
+  margin-top: 1rem;
+}

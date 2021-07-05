@@ -1,0 +1,29 @@
+.games {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.games li {
+  width: 180px;
+  margin: 0.5rem;
+  border: 1px solid var(--grey);
+  border-radius: 0.4rem;
+  padding: 1rem 0.5rem;
+}
+.games_details {
+  display: flex;
+  justify-content: space-between;
+}
+.gameTitle:hover {
+  cursor: pointer; 
+  color: var(--primary);
+}
+.active {
+  color: var(--green);
+}
+.finished {
+  color: var(--grey);
+}
+
